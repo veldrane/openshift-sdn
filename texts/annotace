@@ -1,0 +1,18 @@
+S nástupem technologií jako je Openshift nebo Kubernetes přišly také nové koncepty síťového stacku
+jako jsou různé druhy SDN (Sofware Defined Network), které zajišťují vysokou dostupnost služeb nebo
+možnost jejich horizontálniho škálování. Jejich nasazení ale klade vyšši nároky na systémové inženýry
+nebo DevOPS team při řešení možných problémů, protože metody, které platily pro jejich investigaci
+na klasickych legacy systemech, jako je např. odposlech provozu, nejsou zde jednoduše aplikovatelné.
+Pakety/rámce během svého putování mění své hlavičky, jsou baleny do různých tunelů, případně
+reinjektovany zpět do síťového stacku, mohou byt šifrovány apod. a to vše již na úrovni operačního
+systému nikoliv síťové infrastruktury.
+
+Moje přednáška je zaměřena na pochopení architektury SDN v rámci projektu Openshift. Podiváme se spolu na
+její základní kameny, popíšeme si kompletní packet flow od zdrojového podu až k cíli a to v různých
+scénářích (v ramci openshift SDN, externi komunikace apod).
+
+Druhá část je zaměřena na troubleshooting. Ukážeme si jaké nástroje a v jakém kontextu nám mohou pomoci
+při analýze síťového provozu a v poslední části naťukneme možnosti tracováni paketu v rámci struktur
+linuxového jadra.
+
+Postupy které si ukážeme jsou obecné a můžeme je aplikovat i mimo platformu Openshift SDN.

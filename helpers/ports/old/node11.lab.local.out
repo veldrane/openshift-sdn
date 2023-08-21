@@ -1,0 +1,44 @@
+node11.lab.local | SUCCESS | rc=0 >>
+OFPST_PORT_DESC reply (OF1.3) (xid=0x2):
+ 1(vxlan0): addr:1a:14:60:48:49:1c
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ 2(tun0): addr:aa:d6:1e:cc:8b:10
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ 3(vetha809f91c): addr:7e:7a:22:05:59:eb
+     config:     0
+     state:      0
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ 4(vethdfd9b451): addr:96:57:bf:1c:95:05
+     config:     0
+     state:      0
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ 5(veth87971733): addr:76:38:13:95:44:23
+     config:     0
+     state:      0
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ 6(veth12f118e8): addr:b2:0a:d0:9a:53:59
+     config:     0
+     state:      0
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ 7(veth2644ac35): addr:ce:a0:a3:94:48:67
+     config:     0
+     state:      0
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ 8(veth8e75784a): addr:8e:d6:db:01:6f:99
+     config:     0
+     state:      0
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ LOCAL(br0): addr:46:67:6e:3e:7f:45
+     config:     PORT_DOWN
+     state:      LINK_DOWN
+     speed: 0 Mbps now, 0 Mbps max

@@ -1,0 +1,19 @@
+node24.lab.local | SUCCESS | rc=0 >>
+OFPST_PORT_DESC reply (OF1.3) (xid=0x2):
+ 1(vxlan0): addr:9e:eb:2f:8e:30:54
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ 2(tun0): addr:9a:b0:f7:71:6d:69
+     config:     0
+     state:      0
+     speed: 0 Mbps now, 0 Mbps max
+ 4(veth691e2bf8): addr:ce:11:2b:b5:e6:8f
+     config:     0
+     state:      0
+     current:    10GB-FD COPPER
+     speed: 10000 Mbps now, 0 Mbps max
+ LOCAL(br0): addr:7e:b2:2c:50:79:48
+     config:     PORT_DOWN
+     state:      LINK_DOWN
+     speed: 0 Mbps now, 0 Mbps max
