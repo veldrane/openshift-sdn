@@ -9,4 +9,6 @@ visio/
 	- visio and svg files used in presentation
 helpers/
 	- some onelinerer, outputs from openflow and iptables and other garbage :)
+systemtap/
+	- systemtap probe for tracing packets through iptables chain. Packet must have a specific source port.
 ```
